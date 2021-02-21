@@ -1,0 +1,131 @@
+.header{
+  /* border: 3px solid green; */
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  grid-auto-flow: column;
+  margin: 0px 0px 0 0px;
+  background-color:#7490ac;
+  padding: 10px;
+  
+}
+.logo{
+  width:80px;
+}
+.header:nth-of-type(1){
+  grid-column:span 2;
+  
+}
+.header:nth-of-type(2){
+  grid-column: 2 span 2;
+  
+}
+.main_menu{
+  display:grid;
+  justify-content: end;
+  align-items: center;
+  grid-template-rows: 30% 70%;
+  /* border:1px solid white; */
+}
+.main_menu:nth-of-type(1){
+  grid-row:span 1
+}
+.main_menu:nth-of-type(2){
+  grid-row:2 span 1;
+  
+}
+.main_menu ul{
+  list-style-type: disc;
+  
+  
+}
+
+.main_menu ul li{
+  display:inline;
+ }
+ .main_menu a{
+   
+text-decoration: none;
+color: white;
+padding-right: 5px;
+font-family:'Bauhaus 93' ,'Potta One','arial';
+padding-right: 10px;
+ }
+ .social{
+
+   justify-self: end; /*this property is use as a child of main_menu*/
+   display:grid;
+  width: 150px; 
+  grid-template-columns: repeat(3, 1fr);
+  /* border:1px solid yellow; */
+
+  justify-items: center;
+ }
+ .social-logo{
+   width:20px;
+ }
+ .social ul{
+   list-style-type: disc;
+    }
+    .social ul li{
+      display: inline;
+    }
+    .hero{
+      /* ------------background------------------- */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      
+      height: 100vh;
+      /* border:1px solid red; */
+      color: white;
+      
+        background: linear-gradient(-45deg, #657a4d, #898caa, #163844, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+      
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      /* --------------------------background ends */
+     
+ 
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}   
+    
