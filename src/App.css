@@ -1,0 +1,30 @@
+:root {
+  --orange: #fb8500;
+  --soft-blue: #8ecae6;
+  --dark-blue: #023648;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #ebf0f0;
+}
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  background-color: var(--off-white);
+}
+
+.projects {
+  height: 500px;
+}
