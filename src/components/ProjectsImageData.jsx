@@ -17,22 +17,22 @@ export const ProjectsImageData = [
 		subtitle: 'This project was elaborated using React.js',
 		pathname: 'https://github.com/bukaro8/dogs-deploy',
 	},
-	{
-		imageName: projectImg1,
-		title: 'Project Name',
-		subtitle: 'This project was elaborated using React.js',
-		pathname: 'https://www.google.com',
-	},
-	{
-		imageName: projectImg1,
-		title: 'Project Name',
-		subtitle: 'This project was elaborated using React.js',
-		pathname: 'https://www.google.com',
-	},
-	{
-		imageName: projectImg1,
-		title: 'Project Name',
-		subtitle: 'This project was elaborated using React.js',
-		pathname: 'https://www.google.com',
-	},
+	// {
+	// 	imageName: projectImg1,
+	// 	title: 'Project Name',
+	// 	subtitle: 'This project was elaborated using React.js',
+	// 	pathname: 'https://www.google.com',
+	// },
+	// {
+	// 	imageName: projectImg1,
+	// 	title: 'Project Name',
+	// 	subtitle: 'This project was elaborated using React.js',
+	// 	pathname: 'https://www.google.com',
+	// },
+	// {
+	// 	imageName: projectImg1,
+	// 	title: 'Project Name',
+	// 	subtitle: 'This project was elaborated using React.js',
+	// 	pathname: 'https://www.google.com',
+	// },
 ];
