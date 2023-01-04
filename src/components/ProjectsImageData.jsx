@@ -1,8 +1,21 @@
-import projectImg1 from '../images/project1.jpg';
+import ecommerce from '../images/ecommerce.png'
 import dogs from '../images/dogs.png';
 import github from '../images/github.webp';
 import games from '../images/games.png';
 export const ProjectsImageData = [
+	{
+		imageName:ecommerce,
+		title: 'eCommerce',
+		subtitle:
+			'This project was elaborated using React.js, Node.js/ Express, and MongoDb ',
+		pathname: 'https://www.techwolrd.store/',
+	},
+	{
+		imageName: github,
+		title: 'eCommerce Repo',
+		subtitle: 'This project was elaborated using React.js, Node.js/ Express, and MongoDb',
+		pathname: 'https://github.com/bukaro8/TechWorld',
+	},
 	{
 		imageName: dogs,
 		title: 'Dogs Information Deployment',
