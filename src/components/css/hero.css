@@ -34,8 +34,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 5px solid red;
-	z-index: -2;
 }
 
 .logo-container {
@@ -167,6 +165,9 @@
 @media only screen and (max-width: 900px) {
 	.main-subtitle {
 		font-size: 1.3rem;
+	}
+	.custom-shape-divider-bottom-1632433472 {
+		display: none;
 	}
 }
 /* @media only screen and (max-width: 340px) {
